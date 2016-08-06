@@ -1,8 +1,3 @@
-/*
- * fis
- * http://fis.baidu.com/
- */
-
 'use strict';
 var fs = require('fs')
 var path = require('path')
@@ -57,13 +52,7 @@ var Project = {
         this.mkdir(think.APP_PATH + '/release/');
         this.mkdir(think.APP_PATH + '/docs/');
 
-        this.copyFile('/build/r.js', think.APP_PATH + '/build/r.js')
-        this.copyFile('/build/r.js', think.APP_PATH + '/build/js.jar')
-        this.copyFile('/build/r.js', think.APP_PATH + '/build/conf-dev.js')
-        this.copyFile('/build/r.js', think.APP_PATH + '/build/conf-stg.js')
-
         this.copyFile('/docs/README.md', think.APP_PATH + '/docs/README.md')
-
         this.copyFile('/www/index.shtml', think.APP_PATH + '/www/index.shtml')
     },
     copyFile: function(source, target, replace, showWarning) {
