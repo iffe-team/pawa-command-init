@@ -1,0 +1,40 @@
+{
+  "name": "pawa-command-init",
+  "description": "pawa init command.",
+  "version": "0.0.1",
+  "author": {
+    "name": "IFFE Team",
+    "email": "wanglin576@pingan.com.cn"
+  },
+  "homepage": "http://iffe.top/",
+  "keywords": [
+    "pawa"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iffe-team/pawa-command-init.git"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "main": "init.js",
+  "scripts": {
+    "test": "mocha test/ut --recursive"
+  },
+  "dependencies": {
+    "colors": "0.6.2",
+    "thinkit": "4.9.0"
+  },
+  "devDependencies": {},
+  "readme": "# pawa-command-init\n\n## Usage\n\n    Usage: install <name> [options]\n\n    Options:\n    \n      -h, --help         output usage information\n      -r, --repos <url>  repository url",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/iffe-team/pawa-command-init/issues"
+  },
+  "_id": "pawa-command-init@0.0.1",
+  "dist": {
+    "shasum": "52ec9c7f7290120c079545de7246eedac7ce9f8d"
+  },
+  "_from": "pawa-command-init@0.0.1",
+  "_resolved": "https://registry.npmjs.org/pawa-command-init/-/pawa-command-init-0.0.1.tgz"
+}
