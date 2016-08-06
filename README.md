@@ -1,8 +1,8 @@
 # pawa-command-init
 
-PAWA 命令行init插件
+PAWA 命令行init插件，工程初始化工具
 
-## 安装
+## Install
 放在pawa模块下的node_modules目录中，例如：nodejs\node_modules\pawa\node_modules\pawa-command-init
 
 ## Usage
